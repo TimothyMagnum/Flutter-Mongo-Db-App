@@ -1,0 +1,35 @@
+//Read People
+  //var people=await coll.find().toList(); //Universal Query
+  //var people=await coll.find(where.eq('first-name', 'Timoti')).toList(); //Query  key e.g id :value e.g 1 from the json file
+  //var people= await coll.find(where.limit(1)).toList();//Limits the query to limit
+  //var people=await coll.find(where.match('first-name', 'i')).toList();// Lists items with i in the first name key
+  //print(people);
+  //var person=await coll.findOne(where.match('first-name','T'));//Prints one Person
+  //print(person);
+  //var person=await coll.findOne(where.match('first-name','T').and(where.gt('id', 2)));//Prints one Person with an id which is greater than 2
+  //print(person);
+
+//Create Person
+  // await coll.save({
+  //   "id":10,
+  //   "first-name":"Bright",
+  //   "last-name":"Mugabi",
+  //   "email":"mbb@gmail.com",
+  //   "gender":"F",
+  //   "ip address":"160.1.0.10"
+  // });
+  // print('Saved new Member');
+
+//Update Person 
+  //  await coll.update(await coll.findOne(where.eq('id', 1)), {
+  //    r'$set':{
+  //      'gender':'Male'
+  //    }
+  //  });
+  //  print('Updated Person');
+ //  print(await coll.findOne(where.eq('id', 1)));
+
+//Delete Person
+  //await coll.remove(await coll.findOne(where.eq('id', 1)));
+  //print(await coll.findOne(where.eq('id', 1))); // should print null
+//await db.close();
