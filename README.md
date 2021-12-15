@@ -1,6 +1,6 @@
 # dummy_app_flutter
 
-A new Flutter project.
+Simple Android App which simply just submits data to the database.
 
 ## Getting Started
 
